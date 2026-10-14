@@ -1,2 +1,3 @@
 verify_command: "mvn -B -o -f AmqDemo/pom.xml test"
 required_binaries: [java, mvn]
+preflight_profile: brownfield
